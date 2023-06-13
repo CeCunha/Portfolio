@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Cesar Cunha - Portfolio</title>
+
+</head>
+<body>
+    <!-- nav menu -->
+    <nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="images/isotype.png" alt="isotype">
+             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                    <img class="logo" src="images/logo-white.png" alt="logo white">
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                             <a class="nav-link" href="dev.html">+ Developer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="graph.html">+ Designer</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">+ Pixel Artist</a>
+                         </li><br>
+                        <li class="nav-item">
+                            <a class="nav-link inline" href="https://github.com/CeCunha"><i class="fa fa-github custom"></i></a>
+                            <a class="nav-link inline" href="https://www.linkedin.com/in/cesar-acunha/"><i class="fa fa-linkedin custom"></i></a>
+                            <a class="nav-link inline" href="mailto:cesarcunha1103@gmail.com"><i class="fa fa-envelope custom"></i></a>
+                            <a class="nav-link inline" href="https://cesarcunha.myportfolio.com/"><i class="fa fa-image custom"></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="dev-banner-container">
+        <h1 class="dev-title">My<br>Developments</h1>
+        <button class="link-git" onclick="window.location.href='https://github.com/CeCunha';"><i class="fa fa-github"></i> MY GITHUB</button>
+        <img class="dev-banner" src="images/devheader.png" alt="banner my dev">
+    </div>
+
+    <h1 class="title-projects">PROJECTS</h1>
+
+    <div class="row dev-page">
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/guessing-game-logo.png" alt="guessing logo">
+                <h1>Save The Boy - Guessing Game</h1>
+                <h2>The Guessing Game is a game created from a lab exercise focusing on JS, HTML and CSS. For formatting the layout, bootstrap was used.</h2><br>
+                <p>The game is a guessing game where the user is asked to guess a number between 1 and 20. If the user guesses correctly, they win. If they guess incorrectly, they lose. The game ends when the user guesses correctly or incorrectly 3 times.</p>
+                <img class="img-lgs" src="images/lgs1.png" alt="prog leng logos"><br>
+                <button class="link-play" onclick="window.location.href='https://cecunha.github.io/Guessing-Game/';"><i class="fa fa-gamepad"></i> Play Here</button>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Guessing-Game';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/weather controller.png" alt="weather logo">
+                <h1>Weather Controller</h1>
+                <h2>Page created to simulate climate control. Lab based JS programming course covering: JS - Array, If, Do While Loop and Switch. CSS and Bootstrap for layout and responsiveness HTML - Select Option elements</h2><br>
+                <p>On this interactive page, you can simulate the weather control, as well as the time of day, add elements such as rain, wind and clouds, and also start simulating a timelapse.</p>
+                <img class="img-lgs" src="images/lgs1.png" alt="prog leng logos"><br>
+                <button class="link-play" onclick="window.location.href='https://cecunha.github.io/Weather-Controller/';"><i class="fa fa-search"></i> Check Here</button>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Weather-Controller';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>  
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/chocolate-drop.png" alt="chocolate logo">
+                <h1>Chocolate Drop Page</h1>
+                <h2>Page created for fictitious companies for academic purposes. This page was used HTML, CSS and JS.</h2><br>
+                <img class="img-lgs" src="images/lgs2.png" alt="prog leng logos"><br>
+                <button class="link-play" onclick="window.location.href='https://cecunha.github.io/Chocolate-Company-Webpage/';"><i class="fa fa-search"></i> Check Here</button>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Chocolate-Company-Webpage';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/roof-logo.png" alt="roof logo">
+                <h1>Denison Roof Experts</h1>
+                <h2>Page created for Denison Roof Experts client. Page developed in PHP, CSS and bootstrap for layout and formatting.</h2><br>
+                <img class="img-lgs" src="images/lgs3.png" alt="prog leng logos"><br>
+                <button class="link-play" onclick="window.location.href='https://aroof.org/index.php';"><i class="fa fa-search"></i> Check Here</button>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/HTML---Roof-Website/tree/main/Roof';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/silly-logo.png" alt="sully logo">
+                <h1>Silly Story Generator</h1>
+                <h2>Random generator of silly stories, changing the page elements (img, p) according to the values allocated in the arrays. Academic purposes</h2><br>
+                <p>On this interactive page, you can generate silly stories by changing the dynamics of the page. Every time you generate a story, the generator will change the character, location and context of the story. Fictional names and characters.</p>
+                <img class="img-lgs" src="images/lgs1.png" alt="prog leng logos"><br>
+                <button class="link-play" onclick="window.location.href='https://cecunha.github.io/Silly-Storie/';"><i class="fa fa-search"></i> Check Here</button>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Silly-Storie/tree/main';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/comp-store-logo.png" alt="store logo">
+                <h1>Computer City Store</h1>
+                <h2>Fictitious Computer Store page to practice some table, array and JS techniques. I used CSS to style the page and bootstrap to make it responsive. All texts and images are fictitious.</h2><br>
+                <p>On this page, the user can simulate the inclusion of products in the checkout cart, which demonstrates the subtotal, tax value and the value after tax.</p>
+                <img class="img-lgs" src="images/lgs1.png" alt="prog leng logos"><br>
+                <button class="link-play" onclick="window.location.href='https://cecunha.github.io/Computer-Store/';"><i class="fa fa-search"></i> Check Here</button>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Computer-Store';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/castle.png" alt="castle logo">
+                <h1>Escape Castle Game</h1>
+                <h2>Challenge game created using basic JAVA knowledge. In this project we implement knowledge about variables, classes, loops, constructors, methods, setter and getter, and conditions. For graphics, ASCII Art Generator was used.</h2>
+                <img class="img-lgs" src="images/lgs4.png" alt="prog leng logos"><br>
+                
+                <a target="_blank" href="images/gm1.png">
+                    <img class="test" src="images/gm1.png" style="width:100px">
+                </a>
+                 <a target="_blank" href="images/gm2.png">
+                    <img class="test" src="images/gm2.png" style="width:100px">
+                </a>
+                <a target="_blank" href="images/gm3.png">
+                    <img class="test" src="images/gm3.png" style="width:100px">
+                </a>
+                <a target="_blank" href="images/gm4.png">
+                    <img class="test" src="images/gm4.png" style="width:100px">
+                </a><br><br>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Java---Challenge-Game';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="project">
+                <img class="img-project" src="images/microwave-DISPLAY.png" alt="microwave logo">
+                <h1>MicroWave Display</h1>
+                <h2>Development of a microwave display with timer, led and signaling sound and a rotor using C++ and Arduino Virtual (Tinkercad Dashboard).</h2><br>
+                <img class="img-lgs" src="images/lgs5.png" alt="prog leng logos"><br>
+
+                <a target="_blank" href="videos/microwave.mp4">
+                    <video class="test" src="videos/microwave.mp4" style="width: 200px;"></video><br>
+                </a><br>
+                <button class="link-git" onclick="window.location.href='https://github.com/CeCunha/Microwave-Display';"><i class="fa fa-github"></i> GitHub Repository</button>
+            </div>
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
