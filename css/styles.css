@@ -1,6 +1,6 @@
 body{
     font-family: 'Ubuntu', sans-serif;
-    margin: 0 50px 0 50px;
+    margin: 0 20px 0 20px;
 }
 
 .custom{
@@ -147,10 +147,11 @@ h4{
 
 .dev-banner-container{
     border: 1px;
+    text-align: center;
     
 }
  .dev-banner{
-    margin-top: 100px;
+
     width:100%;
     border-radius: 0 0 15px 0;
     
@@ -165,14 +166,16 @@ h4{
 }
 
 .dev-banner-container button{
-    position: absolute;
-    top:45%;
-    left: 10%;
+    /* position: absolute; */
+    /* top:45%;
+    left: 10%; */
+    margin-top: 100px;
     color: white;
     background-color: black;
-    font-size: 1.5rem;
-    
+    font-size: 1.5rem;  
 }
+
+
 
 .title-projects{
     text-align: center;
@@ -268,10 +271,11 @@ h4{
 
 .graph-banner-container{
     border: 1px;
+    text-align: center;
     
 }
  .graph-banner{
-    margin-top: 100px;
+
     width:100%;
     border-radius: 0 0 15px 0;
     
@@ -287,12 +291,13 @@ h4{
 }
 
 .graph-banner-container button{
-    position: absolute;
+    /* position: absolute;
     top:45%;
-    right: 10%;
+    right: 10%; */
+    margin-top: 100px;
     color: white;
     background-color: black;
-    font-size: 1.5rem;
+    font-size: 1.5rem;  
 
 }
 
@@ -321,7 +326,7 @@ h4{
     color: rgb(29, 36, 95);
 }
 
-.col-2{
+.col-md-2{
     margin-top: 50px;
     text-align: center;
     margin-bottom: 50px;
@@ -359,3 +364,61 @@ h4{
     margin-bottom: 20px;
 }
 
+@media screen and (max-width: 600px) {
+    .dev-image-cartoon{
+        width: 250px;
+    }
+
+    .mainLogo{
+        width: 100px;
+    }
+
+    .lg{
+        width: 50px;
+    }
+
+    .dev-description h1, .gra-description h1{
+        text-align: center; 
+        font-size: 1.5em;
+    }
+
+    .dev-description p, .gra-description p{
+        text-align: center; 
+        font-size: 1em;
+    }
+
+    .dev-title{
+        font-size: 1.2em;
+        top: 55px;
+    }
+
+    .link-git.full{
+        font-size: .5rem;
+        top: 150px;
+        padding: 5px;
+    }
+
+    .img-project{
+        width: 200px;
+    }
+    .project h2{
+        font-size: 0.8em;
+    }
+    .project p{
+        font-size: 0.7em;
+    }
+    .img-lgs{
+        width: 150px;
+        
+    }
+    .project{
+        min-height: 500px;
+    }
+    .graph-title-projects{
+        margin-top: 20px;
+    }
+    .graph-logos{
+        width: 30%;
+    }
+
+  }
